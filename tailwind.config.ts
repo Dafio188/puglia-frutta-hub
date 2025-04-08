@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom Puglia-themed colors
+				puglia: {
+					'green-dark': '#4A6741',
+					'green-light': '#8EA382',
+					'orange-dark': '#D35400',
+					'orange-light': '#E67E22',
+					'yellow': '#F1C40F',
+					'cream': '#FEF9E7'
 				}
 			},
 			borderRadius: {
