@@ -20,10 +20,10 @@ const Navbar = () => {
               <img
                 className="h-10 w-auto"
                 src="/logo.svg"
-                alt="Puglia Frutta Hub"
+                alt="Ortotrade"
               />
               <span className="ml-3 text-xl font-heading font-bold text-puglia-green-dark">
-                Puglia Frutta Hub
+                Ortotrade
               </span>
             </Link>
           </div>

@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-heading font-bold mb-4">Puglia Frutta Hub</h3>
+            <h3 className="text-xl font-heading font-bold mb-4">Ortotrade</h3>
             <p className="text-sm mb-4">
               Il portale per i grossisti ortofrutticoli della Puglia, con dati di mercato, 
               informazioni sulle eccellenze locali e opportunità di networking.
@@ -88,7 +88,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center text-sm">
                 <Mail size={16} className="mr-2" />
-                info@pugliafruttahub.it
+                info@ortotrade.it
               </li>
               <li className="flex items-center text-sm">
                 <Phone size={16} className="mr-2" />
@@ -99,7 +99,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-green-700 mt-8 pt-8 text-center text-sm">
-          <p>© {new Date().getFullYear()} Puglia Frutta Hub. Tutti i diritti riservati.</p>
+          <p>© {new Date().getFullYear()} Ortotrade. Tutti i diritti riservati.</p>
         </div>
       </div>
     </footer>
