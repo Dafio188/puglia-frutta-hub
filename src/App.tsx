@@ -9,6 +9,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import PasswordRecovery from "./pages/PasswordRecovery";
 import NotFound from "./pages/NotFound";
+import PricePrediction from "./pages/PricePrediction";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/login" element={<Login />} />
           <Route path="/registrazione" element={<Register />} />
           <Route path="/recupero-password" element={<PasswordRecovery />} />
+          <Route path="/previsioni-prezzi" element={<PricePrediction />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
