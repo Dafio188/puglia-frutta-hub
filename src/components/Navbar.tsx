@@ -44,13 +44,17 @@ const Navbar = () => {
           </div>
           
           <div className="hidden md:flex items-center">
-            <Button variant="ghost" className="flex items-center text-gray-700 hover:text-puglia-orange-dark mr-2">
-              <LogIn className="h-4 w-4 mr-1" />
-              Accedi
+            <Button variant="ghost" className="flex items-center text-gray-700 hover:text-puglia-orange-dark mr-2" asChild>
+              <Link to="/login">
+                <LogIn className="h-4 w-4 mr-1" />
+                Accedi
+              </Link>
             </Button>
-            <Button className="bg-puglia-green-dark hover:bg-puglia-green-light text-white">
-              <User className="h-4 w-4 mr-1" />
-              Registrati
+            <Button className="bg-puglia-green-dark hover:bg-puglia-green-light text-white" asChild>
+              <Link to="/registrazione">
+                <User className="h-4 w-4 mr-1" />
+                Registrati
+              </Link>
             </Button>
           </div>
           
@@ -101,13 +105,17 @@ const Navbar = () => {
               Notizie
             </Link>
             <div className="pt-4 flex flex-col space-y-2">
-              <Button variant="ghost" className="justify-start">
-                <LogIn className="h-4 w-4 mr-2" />
-                Accedi
+              <Button variant="ghost" className="justify-start" asChild>
+                <Link to="/login" onClick={toggleMenu}>
+                  <LogIn className="h-4 w-4 mr-2" />
+                  Accedi
+                </Link>
               </Button>
-              <Button className="bg-puglia-green-dark hover:bg-puglia-green-light text-white justify-start">
-                <User className="h-4 w-4 mr-2" />
-                Registrati
+              <Button className="bg-puglia-green-dark hover:bg-puglia-green-light text-white justify-start" asChild>
+                <Link to="/registrazione" onClick={toggleMenu}>
+                  <User className="h-4 w-4 mr-2" />
+                  Registrati
+                </Link>
               </Button>
             </div>
           </div>
